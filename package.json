@@ -1,0 +1,23 @@
+{
+  "name": "square-one-live-checker",
+  "version": "1.0.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "description": "Public live-status feed for Square One TikTok creators.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LBTown85/square-one-live-checker.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "tiktok-live-connector": "2.4.3"
+  }
+}
